@@ -1,0 +1,14 @@
+.Button {
+    padding: 0px 20px;
+    border-radius: 2px;
+    border: 2px solid;
+    background-color: darkgreen;
+}
+
+.Button_disabled {
+    background-color: lightgreen;
+}
+
+.Button span {
+    margin: auto;
+}

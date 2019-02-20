@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "build/lib",
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["es5", "es6", "es7", "es2017", "dom"],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "rootDir": "src",
+        "baseUrl": "src",
+        "allowJs": false,
+        "jsx": "react"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build", "scripts"]
+}
